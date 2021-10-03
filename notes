@@ -1,1 +1,15 @@
 1. Can only run ONE bot script!!!
+2. List of handlers (See Net::API::Telegram source code at metacpan)
+    - Seems like object that has "field" column in its doc are the handlers
+      - Update
+      - WebhookInfo
+      - User
+      - Chat
+      - Message
+      - MessageID
+      - MessageEntity
+      - PhotoSize
+      - Animation
+      - Audio
+      - ...
+   - All types have this "field" column

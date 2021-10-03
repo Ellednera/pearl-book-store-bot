@@ -1,7 +1,7 @@
 // This script just replies to a hello message
 
-const Slimbot = require("slimbot")
-const slimbot = new Slimbot("2014914139:AAHwi9CdE5qQRIfAtceiKHY47wRoDFsw5d0")
+const Slimbot = require("slimbot");
+const slimbot = new Slimbot(process.env["PEARL"]);
 
 // register listeners
 slimbot.on("message", message => {

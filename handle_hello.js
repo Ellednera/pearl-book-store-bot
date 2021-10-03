@@ -1,5 +1,5 @@
 const Slimbot = require("slimbot")
-const slimbot = new Slimbot("2014914139:AAHwi9CdE5qQRIfAtceiKHY47wRoDFsw5d0")
+const slimbot = new Slimbot(process.env["PEARL"]);
 
 regex = new RegExp("^h");
 

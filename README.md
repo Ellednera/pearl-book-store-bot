@@ -2,5 +2,5 @@
 A test bot trying to sell books (for learning how to use Telegram bots)
 
 # Languages & Libraries Used
-- Javascript (Node.js)
+- Javascript (slimbot)
 - Perl (Bot::ChatBots::Telegram)
